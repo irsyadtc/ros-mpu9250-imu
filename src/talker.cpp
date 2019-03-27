@@ -1,9 +1,9 @@
 #include "ros/ros.h"
 #include "sensor_msgs/Imu.h"
 
-#include <AK8963AK8963_Magnetometer.h>
+#include <AK8963_Magnetometer.h>
 #include <MPU9250_Acc_Gyro.h>
-#include <AK8963AK8963_Magnetometer.cpp>
+#include <AK8963_Magnetometer.cpp>
 #include <MPU9250_Acc_Gyro.cpp>
 #include <I2CBus.cpp>
 #include <unistd.h>
